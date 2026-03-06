@@ -1,0 +1,125 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/*****************TAGS******************/
+
+body {
+  font-family: sans-serif;
+  background-color: #eee;
+}
+
+header {
+  background-color: #2c2a41;
+  padding: 16px 32px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+header h1 {
+  color: #fff;
+  font-weight: 100;
+}
+
+footer {
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+}
+
+footer p {
+  color: #ccc;
+}
+
+/********************Form*******************/
+
+form {
+  width: 500px;
+  background-color: #fff;
+  box-shadow: 3px 2px 23px -9px rgba(0,0,0,0.77);
+  margin-inline: auto;
+  margin-block: 1rem 2rem;
+  padding: 6px;
+  border-radius: 10px;
+}
+
+form input, form textarea {
+  border: none;
+  color: #555;
+  outline: none;
+}
+
+form input {
+    font-size: 1.2rem;
+    padding: 1rem 1rem;
+    width: 100%;
+}
+
+form textarea {
+  font-size: 1.3rem;
+  font-family: sans-serif;
+  padding: 0 1rem;
+  resize: none;
+}
+
+form textarea::-webkit-scrollbar {
+    display: none;
+}
+
+
+form button {
+  background-color: rgb(255, 169, 57);
+  color: #fff;
+  font-size: 2rem;
+  font-weight: bold;
+  border-radius: 100%;
+  height: 3rem;
+  width: 3rem;
+  border: none;
+  position: relative;
+  left: 29.4rem;
+  top: 1.6rem;
+  cursor: pointer;
+}
+
+/******************Notes******************/
+
+.note {
+  background-color: #fff;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px #ccc;
+  padding: 10px;
+  width: 20%;
+  margin: 16px;
+  float: left;
+}
+
+.note h2 {
+  font-size: 1.1rem;
+  margin-bottom: 6px;
+}
+
+.note p {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.note button {
+  background-color: rgb(255, 57, 57);
+  color: #fff;
+  font-size: .9rem;
+  font-weight: bold;
+  border-radius: 100%;
+  height: 2.4rem;
+  width: 2.4rem;
+  border: none;
+  position: relative;
+  left: 19.6rem;
+  top: .2rem;
+  cursor: pointer;
+}
