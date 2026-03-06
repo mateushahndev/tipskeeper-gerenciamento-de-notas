@@ -46,13 +46,13 @@ Bibliotecas utilizadas:
 1. Clone o repositório:
 
 ```
-git clone https://github.com/mateushahndev/tipskeeper.git
+git clone https://github.com/mateushahndev/tipskeeper-gerenciamento-de-notas.git
 ```
 
 2. Acesse a pasta do projeto:
 
 ```
-cd tipskeeper
+cd tipskeeper-gerenciamento-de-notas
 ```
 
 3. Instale as dependências:
